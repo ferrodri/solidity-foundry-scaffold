@@ -4,7 +4,7 @@ pragma solidity =0.8.20;
 import "forge-std/Test.sol";
 import "src/MockERC20.sol";
 
-contract ReviewTest is Test {
+contract MockERC20Test is Test {
     address public alice = address(1);
 
     MockERC20 public mockERC20;
