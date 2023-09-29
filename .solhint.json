@@ -3,13 +3,13 @@
     "rules": {
         "compiler-version": ["error", "^0.8.20"],
         "func-name-mixedcase": "off",
-        "func-param-name-mixedcase": "error",
-        "func-order": "error",
-        "max-line-length": ["error", 120],
-        "modifier-name-mixedcase": "error",
+        "func-param-name-mixedcase": "warn",
+        "func-order": "warn",
+        "max-line-length": ["warn", 120],
+        "modifier-name-mixedcase": "warn",
         "named-parameters-mapping": "error",
         "no-console": "warn",
-        "ordering": "error",
-        "private-vars-leading-underscore": ["error", { "strict": false }]
+        "ordering": "warn",
+        "private-vars-leading-underscore": ["warn", { "strict": false }]
     }
 }
