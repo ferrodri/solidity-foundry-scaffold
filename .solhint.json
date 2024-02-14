@@ -1,7 +1,7 @@
 {
     "extends": "solhint:recommended",
     "rules": {
-        "compiler-version": ["error", "^0.8.20"],
+        "compiler-version": ["error", "^0.8.23"],
         "func-name-mixedcase": "off",
         "func-param-name-mixedcase": "warn",
         "func-order": "warn",
@@ -10,6 +10,7 @@
         "named-parameters-mapping": "error",
         "no-console": "warn",
         "ordering": "warn",
-        "private-vars-leading-underscore": ["warn", { "strict": false }]
+        "private-vars-leading-underscore": ["warn", { "strict": false }],
+        "no-global-import": false
     }
 }
