@@ -8,5 +8,6 @@
         "editor.defaultFormatter": "JuanBlanco.solidity"
     },
     "solidity.formatter": "forge",
-    "solidity.defaultCompiler": "localNodeModule"
+    // Only one version per project, also should be remote check docs
+    "solidity.defaultCompiler": "remote"
 }
